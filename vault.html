@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Evidence Vault</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <div class="card">
+      <div class="top-nav">
+        <a href="index.html">← Return to Anchor Space</a>
+        <a href="share.html">Share this resource</a>
+      </div>
+
+<h1>Evidence Vault</h1>
+<p class="intro">
+  This vault is your private record of learning — kept on your device via your browser.
+  It is not sent anywhere. Having a calm, organised log removes anxiety and gives you confidence
+  if you’re ever asked for more detail.
+</p>
+
+<div class="label">Add a new entry</div>
+<div class="field">
+  <label>What would you like to record?</label>
+  <textarea id="entry" placeholder="e.g. Reading, projects, conversations, trips, questions your child asked..."></textarea>
+</div>
+<button class="button" onclick="saveEntry()">Save Entry</button>
+<p class="small-text">
+  Entries are stored in your browser’s local storage. Clearing your browser data will remove them.
+</p>
+
+<div class="label" style="margin-top:26px;">Your saved entries</div>
+<div id="vaultList"></div>
+<button class="button secondary small" style="margin-top:12px;" onclick="clearVault()">Clear All Entries</button>
+
+<h2>When You’re Ready</h2>
+<p>
+  You can return to your Anchor Space at any time, or continue to the summary page for a final check-in.
+</p>
+<a class="button" href="summary.html">Go to Summary</a>
+
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>

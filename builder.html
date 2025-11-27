@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Learning Statement Builder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <div class="card">
+      <div class="top-nav">
+        <a href="index.html">← Return to Anchor Space</a>
+        <a href="share.html">Share this resource</a>
+      </div>
+
+<h1>Learning Statement Builder</h1>
+<p class="intro">
+  This tool helps you create a clear, safe and compliant learning statement without oversharing.
+  You stay in control; this page simply guides the wording.
+</p>
+
+<div class="label">Step 1</div>
+<h2>Fill in the Prompts</h2>
+<div class="field">
+  <label>Child’s Name (first name only)</label>
+  <input id="childName" placeholder="e.g. Leo" />
+</div>
+<div class="field">
+  <label>Your Educational Approach</label>
+  <textarea id="approach" placeholder="Describe your general approach..."></textarea>
+</div>
+<div class="field">
+  <label>Main Learning Areas</label>
+  <textarea id="areas" placeholder="e.g. reading, numeracy, nature study..."></textarea>
+</div>
+<div class="field">
+  <label>Recent Progress or Engagement</label>
+  <textarea id="progress" placeholder="Any recent developments or wins..."></textarea>
+</div>
+<div class="field">
+  <label>Support for Needs / Preferences (optional)</label>
+  <textarea id="needs" placeholder="Adaptations, pacing, sensory needs, etc..."></textarea>
+</div>
+
+<div style="margin-top:18px;">
+  <button class="button" onclick="buildStatement()">Generate Statement</button>
+</div>
+
+<div class="label" style="margin-top:24px;">Step 2</div>
+<h2>Your Statement Preview</h2>
+<div id="preview" class="preview-box">
+  Your statement will appear here…
+</div>
+
+<p class="small-text" style="margin-top:10px;">
+  You can copy and paste this into an email or document when you’re happy with it.
+</p>
+
+<h2>Next</h2>
+<p>
+  You can now move on to the Evidence Vault to keep your own private record of learning.
+</p>
+<a class="button" href="vault.html">Open Evidence Vault</a>
+
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
